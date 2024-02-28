@@ -1,0 +1,123 @@
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" type="text/css" href="landing page.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+
+            <div class="logo">
+                Li<span>Zu</span>
+            </div>
+        </div>
+        <div class="center_text">
+        <h1> 
+            Dadheech Creation
+        </h1><br>
+        <div class="contact">
+        <a href="#" id="bt1"> Contact</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" id="bt2"> Read more.</a>
+    </div>
+    </div>
+    </header>
+</body>
+</html>
+
+CSS CODE:
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: url("C:\\Users\\Lenovo\\Desktop\\landing page\\nature3.jpg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:5px;
+}
+ul li a:hover{
+    background-color: white;
+    color:black; 
+    transition: 0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+ .logo{
+  color:#fff ;
+  font-size: 60px;
+  width: 20px;
+  margin:20px ;
+} 
+.center_text{
+    margin-top: 250px;
+    margin-left: 530px;;
+}
+.center_text h1{
+    color: white;
+    font-size:70px;
+}
+#bt1{
+    border:1px solid white;
+    color: white;
+    padding:5px;
+    text-decoration: none;
+}
+#bt2{
+    border:1px solid white;
+    color: white;
+    padding:5px;
+    text-decoration: none;
+}
+#bt1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.contact{
+   text-align: center;
+   margin-right: 400px;
+
+}
+span{
+    color: rgb(255, 208, 0);
+   
+}
